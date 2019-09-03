@@ -1,0 +1,101 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+body,
+html,
+.body {
+  background: #f3f3f3 !important;
+}
+
+.large-hr {
+  width: 100%;
+  border-top-width: 4px;
+  border-top-style: solid;
+  border-top-color: $secondary-color;
+}
+
+.banner-img-1 {
+
+}
+
+.banner-img-2 {
+  height: auto;
+  border: none;
+  width: 100%;
+  max-width: 640px;
+}
+
+.small-hr {
+  width: 5%;
+  border-top-width: 4px;
+  border-top-style: solid;
+  border-top-color: $secondary-color;
+}
+
+.button {
+  font-family: $body-font-family;
+  text-transform: uppercase;
+  // font-weight: bold;
+  line-height: 100%;
+  text-align: center;
+  // text-decoration: none;
+  display: block;
+  // padding: 14px;
+  // text-decoration: none;
+  display: inline-block;
+  color: #000000;
+  background-color: $secondary-color;
+  border-radius: 0px;
+}
+
+.tennis {
+  line-height: 19px;
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  color: #555555;
+  line-height: 120%;
+  padding-top: 40px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.open {
+  text-align: center;
+  margin: 0;
+  line-height: 36px;
+  font-size: 30px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  color: #555555;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin: 0;
+}
+
+.footer {
+  & .container {
+    width: 100%;
+    border-collapse: collapse !important;
+    background-color: $dark-blue;
+  }
+}
+
+.text-center {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 20px;
+  color: #8d99ad;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
