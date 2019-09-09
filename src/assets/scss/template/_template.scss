@@ -115,9 +115,6 @@ html,
   }
 }
 
-
-
-
 .footer {
   & .container {
     background-color: $dark-blue;
@@ -125,26 +122,22 @@ html,
     font-size: 11px;
     line-height: 20px;
     padding-top: 40px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    // padding-bottom: 20px;
+    // padding-left: 20px;
+    // padding-right: 20px;
   }
-}
+  .text-center {
+    font-size: 11px;
+    line-height: 20px;
+    color: #8d99ad;
+    padding-bottom: 20px;
+    align-items: center;
+  }
 
-.text-center {
-  font-size: 11px;
-  line-height: 20px;
-  color: #8d99ad;
-  padding-top: 0px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  align-items: center;
-}
-
-.hyperlink {
-  font-size: 11px;
-  color: #8d99ad;
-  text-decoration: underline;
-  font-weight: 800;
+  a {
+    font-size: 11px;
+    color: #8d99ad;
+    text-decoration: underline;
+    font-weight: 800;
+  }
 }
