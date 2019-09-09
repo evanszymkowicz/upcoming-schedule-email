@@ -115,10 +115,11 @@ html,
   }
 }
 
+
+
+
 .footer {
   & .container {
-    width: 100%;
-    border-collapse: collapse !important;
     background-color: $dark-blue;
     font-weight: normal;
     font-size: 11px;
@@ -131,7 +132,6 @@ html,
 }
 
 .text-center {
-  font-weight: normal;
   font-size: 11px;
   line-height: 20px;
   color: #8d99ad;
@@ -139,6 +139,7 @@ html,
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  align-items: center;
 }
 
 .hyperlink {
