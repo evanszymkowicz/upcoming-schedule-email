@@ -1,6 +1,11 @@
 # upcoming-schedule-email
 ![espn-email](src/assets/img/espn-email.png)
 
+
+# Sept 12
+- added another email </br>
+- significant refactoring to make better use of handlebars
+
 ## Build Commands
 
 Run `npm start` to kick off the build process. A new browser tab will open with a server pointing to your project files.

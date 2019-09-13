@@ -1,0 +1,20 @@
+.button {
+    text-transform: uppercase;
+    display: inline-block;
+    color: $black;
+    background-color: $secondary-color;
+    border-radius: 0px;
+    border-top: 1px solid $secondary-color;
+    border-right: 1px solid $secondary-color;
+    border-bottom: 1px solid $secondary-color;
+    border-left: 1px solid $secondary-color;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Roboto',Tahoma,Verdana,Segoe,sans-serif;
+    text-align: center;
+    word-break: keep-all;
+
+      @media only screen and (max-width: #{$global-breakpoint}) {
+        font-size: 16px!important;
+    }
+  }
