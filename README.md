@@ -15,5 +15,3 @@ Run `npm run build` to inline your CSS into your HTML along with the rest of the
 Run `npm run litmus` to build as above, then submit to litmus for testing. *AWS S3 Account details required (config.json)*
 
 Run `npm run mail` to build as above, then send to specified email address for testing. *SMTP server details required (config.json)*
-
-Run `npm run zip` to build as above, then zip HTML and images for easy deployment to email marketing services.
